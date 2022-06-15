@@ -34,7 +34,7 @@ const Comments = () => {
     return(
         userComments.map((comment) => {
             return(
-            <Card key={comment.id} style={{marginBottom:'20px', backgroundColor:'#a3ff08', border:'none'}}>
+            <Card key={comment.id} style={{marginBottom:'20px', backgroundColor:'#a3ff08', border:'5px solid #4f708e'}}>
                 <Card.Body>
                     <Card.Title>{comment.name}</Card.Title>
                     {comment.description}
